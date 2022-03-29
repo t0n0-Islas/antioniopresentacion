@@ -5,7 +5,7 @@ body {
 
 p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 15mm;
+    margin: 10mm;
     padding-left: 5mm;
     border-left: 10px solid orange;
     border-right: 15px solid orangered;
@@ -40,6 +40,7 @@ li{
 .job-title {
     color: gold;
     font-weight: bolder;
+    margin-left: 40%;
 }
 
 a:link, a:visited {
@@ -50,4 +51,18 @@ a:link, a:visited {
 a:hover {
     color: forestgreen;
     text-decoration: line-through;
+}
+.foto {
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+}
+li{
+    border: 2px;
+    padding: .5em;
+}
+.menu{
+    margin-left: 70%;
+    list-style-type: none;
+    display: flex;
 }
